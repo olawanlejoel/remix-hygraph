@@ -19,7 +19,7 @@ export default function handleRequest(
     ssrMode: true,
     cache: new InMemoryCache(),
     link: createHttpLink({
-      uri: "https://flyby-gateway.herokuapp.com/", // from Apollo Odyssey's Voyage tutorial series (https://www.apollographql.com/tutorials/voyage-part1/)
+      uri: "https://api-us-east-1-shared-usea1-02.hygraph.com/v2/clgukv3zu05n101ulfk6u2lca/master",
       headers: request.headers,
       credentials: request.credentials ?? "include",
     }),
